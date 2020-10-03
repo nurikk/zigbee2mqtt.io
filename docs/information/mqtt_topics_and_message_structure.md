@@ -52,7 +52,7 @@ Publishing messages to this topic allows you to control your Zigbee devices via 
 ```js
 {
   "state": "ON", // Or "OFF", "TOGGLE"
-  "brightness": 255, // Value between 0 and 255
+  "brightness": 254, // Value between 0 and 254
 
   // Color temperature in Reciprocal MegaKelvin, a.k.a. Mirek scale.
   // Mirek = 1,000,000 / Color Temperature in Kelvin
